@@ -59,7 +59,7 @@ def input_guess(guess):
     # main game logic goes here
     global secret_number
     global guess_remain
-    global winner
+    global winner  # extraneous?
     global outcome
 
     guess_int = int(guess)
