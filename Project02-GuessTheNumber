@@ -36,6 +36,7 @@ def range100():
     global num_range
     num_range = 100
     global guess_remain
+    guess_remain = 7
     print " "
     print "New game! Now guessing from 1 -", num_range
     print "You have", guess_remain, "guesses remaining."
@@ -47,6 +48,7 @@ def range1000():
     global num_range
     num_range = 1000
     global guess_remain
+    guess_remain = 10
     print " "
     print "New game! Now guessing from 1 -", num_range
     print "You have", guess_remain, "guesses remaining."
