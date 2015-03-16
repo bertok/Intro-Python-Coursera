@@ -65,7 +65,7 @@ def input_guess(guess):
     guess_int = int(guess)
     print "Your guess:", guess_int
 
-    guess_remain = guess_remain - 1
+    guess_remain -= 1
 
     winner = False
     
