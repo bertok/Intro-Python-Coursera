@@ -23,17 +23,12 @@ def format(t):
     
 # define event handlers for buttons; "Start", "Stop", "Reset"
 def start_timer():
-    global start
-    global running
+    global start,running
     timer.start()
     running = True
         
 def stop_timer():
-    global tries
-    global score
-    global start
-    global current_count
-    global running
+    global tries, score, start, current_count, running
     timer.stop()    
     
     if running == True:
@@ -44,10 +39,7 @@ def stop_timer():
      
 def reset_timer():
     timer.stop()
-    global current_count
-    global score
-    global tries
-    global running
+    global current_count, score, tries, running
     current_count = 0
     score = 0
     tries = 0
